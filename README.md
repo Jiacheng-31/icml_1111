@@ -1,7 +1,7 @@
 # icml
 
 
-Based on the reviewer's advice, we conducted this experiment 3 times and reported the results of statistical significance tests. The results are as follows:
+# Table 1
 
 | Methods        | Exp-1 | Exp-2 | Exp-3 | Avg ± std     |
 |----------------|-------|-------|-------|---------------|
@@ -15,7 +15,8 @@ Based on the reviewer's advice, we conducted this experiment 3 times and reporte
 | EQUAL(ours)    | 72.51 | 72.70 | 73.78 | 73.01 (0.69)  |
 
 
-Thanks for your suggestions, we added error bars to show the effectiveness of EQUAL. The results are as follows:
+
+# Table 2
 
 | Methods         | Error Bars |
 |-----------------|------------|
