@@ -30,7 +30,7 @@
 | EQUAL(ours)     | 73.01      |
 
 
- As suggested by the reviewer, we add KnowledgePile as the candidate dataset, associated with MMLU (a benchmark for evaluating knowledge and problem-solving skills) and BBH (a benchmark requiring multi-step reasoning) as new downstream tasks. We also add a model with a different size (internlm2-20B[cite]). The results are as follows:
+# Table 3
 
 | Model            | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   | MMLU  | BBH   | FLOPs   |
 |------------------|-------|-------|---------|-----------|-------|---------|-------|-------|---------|
@@ -45,7 +45,7 @@
 | EQUAL            | 80.3  | 33.7  | 21.03   | 67.3      | 66.7  | 16.65   | 73.1  | 76.3  | 27.46   |
 
 
-We thank your comments for improving our paper! Based on your valuable suggestions, we have added experiments by enlarging the model size and the diversity of downstream tasks, so as to further validate the effectiveness of EQUAL. The results are as follows:
+# Table 4
 
 **internlm-20B model**
 
@@ -62,8 +62,7 @@ We thank your comments for improving our paper! Based on your valuable suggestio
 | EQUAL           | 80.3  | 33.7  | 21.03   | 67.3      | 66.7  | 16.65   | 73.1  | 76.3  | 27.46   |
 
 
-Thanks for your suggestions on improving our paper! To demonstrate the benefit of the data extracted by EQUAL for the LLaMA-3.8B-Instruct model, we further fine-tuned the LLaMA-3.8B-Instruct model using the data synthesized by EQUAL. The results are as follows:
-
+# Table 5
 | Model               | GSM8K | MATH  | HUMANEVAL | MBPP  | MMLU  | BBH   |
 |---------------------|-------|-------|-----------|-------|-------|-------|
 | Llama3-8B-Instruct  | 79.5  | 30.0  | 60.4      | 70.6  | 68.7  | 53.7  |
@@ -71,7 +70,7 @@ Thanks for your suggestions on improving our paper! To demonstrate the benefit o
 
 
 
-Thanks! We follow the method of Qurating[1] and add the baseline of data generation paired with LLM quality filtering(LLM-filtering). The results are as follows:
+# Table 6
 |               |       | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   |
 |---------------|-------|-------|-------|---------|-----------|-------|---------|
 | LLM-filtering | LoRA  | 65.73 | 30.55 | 271.56  | 34.3      | 53.5  | 141.38  |
@@ -79,9 +78,7 @@ Thanks! We follow the method of Qurating[1] and add the baseline of data generat
 | LLM-filtering | FULL  | 68.38 | 33.19 | 273.91  | 46.9      | 53.7  | 142.73  |
 | EQUAL         | FULL  | 73.01 | 35.10 | 18.55   | 49.4      | 56.3  | 13.50   |
 
-
-Thanks for your comments! We have added the results of the "All (Mammoth)" baseline in Table 1. The results are as follows:
-
+# Table 7
 | Method          | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   |
 |-----------------|-------|-------|---------|-----------|-------|---------|-------|-------|---------|-----------|-------|---------|
 | ALL(Mammoth) LoRA | 65.43 | 32.90 | 170.21  | 34.8      | 55.3  | 126.38  | 55.15 | 21.50 | 159.60  | 29.6      | 46.3  | 121.23  |
