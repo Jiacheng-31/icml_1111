@@ -60,8 +60,8 @@ $$W_{\epsilon} (\mu, \nu) = \min \langle C, \Gamma \rangle + \epsilon h(\Gamma)$
 
 
 # Table 6
-|| Method          | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   |
-|-----------------|-------|-------|---------|-----------|-------|---------|-------|-------|---------|-----------|-------|---------|
+|   | Method          | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   | GSM8K | MATH  | FLOPs   | HUMANEVAL | MBPP  | FLOPs   |
+|-------|----------|-------|-------|---------|-----------|-------|---------|-------|-------|---------|-----------|-------|---------|
 | ALL(Mammoth) |LoRA | 65.43 | 32.90 | 170.21  | 34.8      | 55.3  | 126.38  | 55.15 | 21.50 | 159.60  | 29.6      | 46.3  | 121.23  |
 | ALL(Mammoth) |FULL | 70.28 | 40.02 | 181.66  | 45.6      | 56.0  | 143.73  | 62.21 | 26.52 | 176.11  | 35.7      | 47.0  | 134.91  |
 
