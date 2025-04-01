@@ -1,5 +1,3 @@
-# icml
-
 # Equation 1
 $$W_{\epsilon} (\mu, \nu) = \min \langle C, \Gamma \rangle + \epsilon h(\Gamma)$$
 
