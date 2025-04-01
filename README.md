@@ -22,14 +22,14 @@ $$W_{\epsilon} (\mu, \nu) = \min \langle C, \Gamma \rangle + \epsilon h(\Gamma)$
 
 | Methods         | Error Bars |
 |-----------------|------------|
-| Random          | 68.92      |
-| Avg-sim         | 70.35      |
-| Perplexity      | 64.52      |
-| Influence       | 65.20      |
-| Rewriting       | 64.47      |
-| Perplexity-MAB  | 65.28      |
-| Influence-MAB   | 67.78      |
-| EQUAL(ours)     | 73.01      |
+| Random          | 0.22      |
+| Avg-sim         | 0.34      |
+| Perplexity      | 0.50      |
+| Influence       | 0.16      |
+| Rewriting       | 0.09      |
+| Perplexity-MAB  | 0.08      |
+| Influence-MAB   | 0.67      |
+| EQUAL(ours)     | 0.69      |
 
 
 # Table 3
